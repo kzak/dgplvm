@@ -12,7 +12,9 @@ based on [Utram et al, 2007](https://dl.acm.org/doi/abs/10.1145/1273496.1273613?
 ## Installation
 
 ```sh
-cd /path/to/project
+git clone https://github.com/kzak/dgplvm.git
+cd dgplvm
+
 python -m venv venv
 source ./venv/bin/activate
 
@@ -22,10 +24,20 @@ pip install -r requirements.txt
 
 
 ## Usage
+Please see [notebooks/dgplvm.ipynb](https://github.com/kzak/dgplvm/noteboks/dgplvm_example.ipynb) .
 
-Please see [notebooks/dgplvm.ipynb](https://github.com/kzak/dgplvm/noteboks/dgplvm.ipynb) .
+```sh
+cd /path/to/dgplvm
+source ./venv/bin/activate
+
+jupyter lab
+# Open "notebooks/dgplvm.ipynb" in jupyter lab
+```
 
 
 ## Note
-There may be logs of bugs.
+Because of my naive implementation, 
+- There may be lots of bugs.
+- Optimization of latent space and kernel parameters is still very unstable.
+
 If you find any bugs, please let me know.
