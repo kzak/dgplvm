@@ -6,7 +6,7 @@ based on [Utram et al, 2007](https://dl.acm.org/doi/abs/10.1145/1273496.1273613?
 
 ## Requirement
 - Python 3.9
-- Other packages are listed in [requirements.txt](https://github.com/kzak/dgplvm/requirements.txt) .
+- Other packages are listed in "requirements.txt"
 
 
 ## Installation
