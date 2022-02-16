@@ -39,8 +39,14 @@ class DGPLVM(GPBase):
             Y : m input points, (m, d) matrix
             t : labels of Y, (m,) vector , each value is in {0, 1}.
             n_dim : Dimension of latents points X, (m, k) matrix, k << d
+            use_early_stop : Flag of early stoping.
+                After <min_epoch>,
+                if the minimum loss cannot be updated <n_patience> times consectively,
+                the training loop is stopped.
             init_latent_points: Initial latent points X, (m, k) matrix,
                 If None, initial latent points will be decided by SVD.
+            sigma_d : Controlls discrimination of latent space.
+                see: [Utram et al, 2007]
         Returns
             X : Latent points , (m, k) matrix
         """
