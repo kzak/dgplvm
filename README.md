@@ -24,14 +24,14 @@ pip install -r requirements.txt
 
 
 ## Usage
-Please see [notebooks/dgplvm.ipynb](https://github.com/kzak/dgplvm/noteboks/dgplvm_example.ipynb) .
+Please see "notebooks/dgplvm_example.ipynb".
 
 ```sh
 cd /path/to/dgplvm
 source ./venv/bin/activate
 
 jupyter lab
-# Open "notebooks/dgplvm.ipynb" in jupyter lab
+# Open "notebooks/dgplvm_example.ipynb" in jupyter lab
 ```
 
 
